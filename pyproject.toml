@@ -6,15 +6,19 @@ authors = [
     {name = "aybike alkan",email = "aybike.alkn@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11,<3.12"
 dependencies = [
     "pandas (>=2.3.3,<3.0.0)",
     "geopandas (>=1.1.1,<2.0.0)",
     "shapely (>=2.1.2,<3.0.0)",
     "matplotlib (>=3.10.7,<4.0.0)",
     "openpyxl (>=3.1.5,<4.0.0)",
-    "pyproj (>=3.7.2,<4.0.0)"
+    "pyproj (>=3.7.2,<4.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
 ]
+
+[tool.poetry]
+package-mode = false
 
 
 [build-system]
